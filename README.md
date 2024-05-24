@@ -14,9 +14,10 @@ Python:
   - Pandas
   - Scikit-Learn
   - Numpy
+  - Scipy
   - Streamlit
   - Pickle
-  - Conda 
+  - Anaconda
 
 <h2 id="started">🚀 Como baixar o projeto e configurar ambiente</h2>
 
@@ -25,16 +26,16 @@ Python:
 Clone o repositório
 
 ```bash
-git clone https://github.com/Liparkx/TCC.git
+git clone https://github.com/Liparkx/Book-Recommendation-System.git
 ```
 
 <h3>PASSO 1 - Crie um ambiente conda depois de abrir o repositório</h3>
 
 ```bash
-conda create --prefix ./env python==3.11. -y
+conda create --prefix ./env python==3.11 -y
 ```
 ```bash
-conda activate books
+conda activate ./env/
 ```
 
 <h3>PASSO 2 - Installe os requerimentos</h3>
